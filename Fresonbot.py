@@ -10,7 +10,7 @@ import pinout
 class Fresonbot(object):
 
     ticksPerTurn = 12 *100 # 12 counts per revolution * 100:1 reduction gearbox
-## you have to take this measures accurately
+##  you have to take this measures accurately
 #    WheelRadius = 31.8/2 # I took the diameter and divided by 2
 #    WheelDistance = 88.9 # between centers
     WheelRadius = 16 # In mm
