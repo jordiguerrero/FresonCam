@@ -41,7 +41,8 @@ class Fresonbot(object):
         self.StartTicksRight = TicksRight 
 #        ADC.setup() # IR
 
-    def motion(self,VelLeft,VelRight):
+#    def motion(self,VelLeft,VelRight):
+    def motion(self,VelRight,VelLeft):
         AbsVelLeft = abs(VelLeft)
         AbsVelRight = abs(VelRight)
         if (VelLeft < 0):

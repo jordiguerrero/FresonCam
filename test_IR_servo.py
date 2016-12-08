@@ -32,7 +32,7 @@ while 1:
 
     print("IR_Voltage" , voltage0)
     print("Angle" , angle)
-    time.sleep(0.1)
+    time.sleep(0.05)
 
     if angle < 180:
         if direction == "left":
